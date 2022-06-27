@@ -23,6 +23,7 @@ import axios  from 'axios';
     },
     methods:{
       haddleSign(){
+ 
         localStorage.setItem("smartmirrorFirstname", this.firstname);
         localStorage.setItem("smartmirrorLastname", this.lastname);
         localStorage.setItem("smartmirrorEmail", this.email);

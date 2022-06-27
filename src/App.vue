@@ -1,11 +1,12 @@
 <script setup>
- 
+//  import GenLogo from './components/GenLogo.vue'
+//  import LogoMobile from './assets/tech_mobile.png'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <img    src="@/assets/techlogo.png" width="500" height="500"   />
+    <GenLogo/>
     <div class="wrapper">
       <nav>
  
